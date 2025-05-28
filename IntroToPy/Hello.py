@@ -29,3 +29,6 @@ print('\nmodify the class attribute, and show its effect on both objects')
 MyPoint.rebase(1, 1)
 print(myFirstPoint)
 print(mySecondPoint)
+
+print('\ncall class static method to combine points')
+print(MyPoint.combine(myFirstPoint, mySecondPoint))

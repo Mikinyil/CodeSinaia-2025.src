@@ -25,5 +25,9 @@ class MyPoint:
         cls.origX += offsetX
         cls.origY += offsetY
 
+    @staticmethod
+    def combine(point1, point2):
+        return MyPoint(point1.__x + point2.__x, point1.__y + point2.__y)
+
 if __name__ == "__main__":
     print('This file is not meant to be executed by itself')
