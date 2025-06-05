@@ -7,7 +7,7 @@ dataSet = [] # List to hold the random numbers data set
 nTop = 10 # The top N randoms with the most occurrences
 
 # Generate the dataset
-print(f"---- Generating {count} random numbers in the range [{nStart} - {nEnd}] in the dataset.txt file.")
+print(f"---- Generate {count} random numbers in the range [{nStart} - {nEnd}] in the dataset.txt file.")
 with open("dataset.txt", "w") as dataFile:
     for i in range(0, count):
         r = random.randint(nStart, nEnd)
