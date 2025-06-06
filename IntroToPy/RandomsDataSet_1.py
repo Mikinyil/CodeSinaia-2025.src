@@ -1,11 +1,20 @@
 import pandas
 from RandomNumber import RandomNumber
 
-r1 = RandomNumber(10, 0)
-r1.add_index(1)
-r1.add_index(2)
+# Deserialize the data set in from json file
+# Parameters:
+#    file_name (string): the name of file containing the json serialization
+# Returns:
+#   ([RandomNumber]): array of RandomNumber objects
+def deserialize_data_set(file_name):
+    data_set = []
+    with open(file_name, "r") as json_file:
+        for json_record in json_file:
+            random_number = RandomNumber.from_json(json_record)
+            data_set.append(random_number)
+    return data_set
 
-j1 = r1.to_json()
-print(j1)
-r2 = RandomNumber.from_json(j1)
-print(r2)
+################ MAIN SCRIPT ################
+data_set = deserialize_data_set("dataset.json")
+for random_number in data_set:
+    print(random_number)
