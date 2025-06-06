@@ -16,6 +16,12 @@ class RandomNumber:
     def add_index(self, index):
         self.__indexes.append(index)
 
+    def get_value(self):
+        return self.__value
+    
+    def get_count(self):
+        return len(self.__indexes)
+
     def __lt__(self, other):
         return len(self.__indexes) < len(other.__indexes)
     

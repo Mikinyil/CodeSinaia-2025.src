@@ -15,6 +15,14 @@ def deserialize_data_set(file_name):
     return data_set
 
 ################ MAIN SCRIPT ################
+# Deserialize the data_set from the json file
 data_set = deserialize_data_set("dataset.json")
-for random_number in data_set:
-    print(random_number)
+# Use pandas to extract statistics over the values and their occurrence counts
+df = pandas.DataFrame({
+    "value": [obj.get_value() for obj in data_set],
+    "count": [obj.get_count() for obj in data_set]
+})
+
+print(f'min/max values: [{df["value"].min()} - {df["value"].max()}]')
+print(f'Median value: {df["value"].median()}')
+print(f'Mean value: {df["value"].mean()}')
