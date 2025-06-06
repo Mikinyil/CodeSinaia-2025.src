@@ -8,11 +8,11 @@ top_counts = 10 # The top N randoms with the most occurrences
 
 # Generate the dataset
 print(f"---- Generate {count} random numbers in the range [{min_value} - {max_value}] in the dataset.txt file.")
-with open("dataset.txt", "w") as dataFile:
+with open("dataset.txt", "w") as data_file:
     for i in range(0, count):
         r = random.randint(min_value, max_value)
         data_set.append(r)
-        dataFile.write(f"{r}\n")
+        data_file.write(f"{r}\n")
 
 # Count the occurrences of each number in the dataset
 print(f"---- Build a map linking each random (key) to the number of times it was generated (value).")
