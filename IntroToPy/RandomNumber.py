@@ -10,8 +10,7 @@ class RandomNumber:
 
     def __init__(self, value, index):
         self.__value = value
-        self.__indexes = []
-        self.__indexes.append(index)
+        self.__indexes = [index]
 
     def add_index(self, index):
         self.__indexes.append(index)

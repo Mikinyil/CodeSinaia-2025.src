@@ -15,7 +15,7 @@ def deserialize_data_set(file_name):
     return data_set
 
 ################ MAIN SCRIPT ################
-# Deserialize the data_set from the json file
+# Deserialize the data_set from the json file (file created by RandomsGen_1.py)
 data_set = deserialize_data_set("dataset.json")
 # Use pandas to extract statistics over the values and their occurrence counts
 df = pandas.DataFrame({
@@ -26,3 +26,4 @@ df = pandas.DataFrame({
 print(f'min/max values: [{df["value"].min()} - {df["value"].max()}]')
 print(f'Median value: {df["value"].median()}')
 print(f'Mean value: {df["value"].mean()}')
+print(f'Standard Deviation: {df["value"].std()}')

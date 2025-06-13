@@ -1,0 +1,1 @@
+Obsidian Notes vault for *Code Sinaia 2025*
