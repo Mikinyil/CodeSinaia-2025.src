@@ -20,6 +20,9 @@ class RandomNumber:
     
     def get_count(self):
         return len(self.__indexes)
+    
+    def get_indexes(self):
+        return self.__indexes
 
     def __lt__(self, other):
         return len(self.__indexes) < len(other.__indexes)

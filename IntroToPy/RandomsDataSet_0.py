@@ -37,11 +37,12 @@ def print_top_occurrences(top_counts, map):
         print(sorted_random_numbers[i])
     
 ################ MAIN SCRIPT ################
-print(f"---- Load raw data from 'dataset.txt' file.")
-data_set = load_data_set("dataset.txt")
+if __name__ == "__main__":
+    print(f"---- Load raw data from 'dataset.txt' file.")
+    data_set = load_data_set("dataset.txt")
 
-print(f"---- Save JSON data in the 'dataset.json' file.")
-serialize_data_set(data_set, "dataset.json")
+    print(f"---- Save JSON data in the 'dataset.json' file.")
+    serialize_data_set(data_set, "dataset.json")
 
-print(f"---- Print the top 10 randoms with the most number of occurrences, in descending order.")
-print_top_occurrences(10, data_set)
+    print(f"---- Print the top 10 randoms with the most number of occurrences, in descending order.")
+    print_top_occurrences(10, data_set)
