@@ -51,14 +51,15 @@ def print_top_occurrences(top_counts, map):
         print(f"random {sorted_dataSet[i][0]} generated {sorted_dataSet[i][1]} times")
 
 ################ MAIN SCRIPT ################
-print(f"---- Generate 100 random numbers in the range [12 - 168] in the dataset.txt file.")
-data_set = generate_data_set(100, 12, 168)
+if __name__ == "__main__":
+    print(f"---- Generate 100 random numbers in the range [12 - 168] in the dataset.txt file.")
+    data_set = generate_data_set(100, 12, 168)
 
-print(f"---- Save the data set in the 'dataset.txt' file.")
-save_data_set(data_set, "dataset.txt")
+    print(f"---- Save the data set in the 'dataset.txt' file.")
+    save_data_set(data_set, "dataset.txt")
 
-print(f"---- Build a map linking each random (key) to the number of times it was generated (value).")
-map = build_map(data_set)
+    print(f"---- Build a map linking each random (key) to the number of times it was generated (value).")
+    map = build_map(data_set)
 
-print(f"---- Print the top 10 randoms with the most number of occurrences, in descending order.")
-print_top_occurrences(10, map)
+    print(f"---- Print the top 10 randoms with the most number of occurrences, in descending order.")
+    print_top_occurrences(10, map)
