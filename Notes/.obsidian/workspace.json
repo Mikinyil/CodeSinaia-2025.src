@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "0. Friday - Setup/5. Google Collab.md",
+                "file": "0. Friday - Setup/_Readme.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "5. Google Collab"
+              "title": "_Readme"
             }
           }
         ]
@@ -169,15 +169,15 @@
   },
   "active": "8ca050ba1d7fdb76",
   "lastOpenFiles": [
-    "0. Friday - Setup/4. Obsidian MD.md",
-    "0. Friday - Setup/3. Visual Studio Code.md",
-    "0. Friday - Setup/2. Git & GitHub.md",
     "0. Friday - Setup/1. Python.md",
+    "0. Friday - Setup/2. Git & GitHub.md",
+    "0. Friday - Setup/3. Visual Studio Code.md",
+    "0. Friday - Setup/4. Obsidian MD.md",
+    "0. Friday - Setup/5. Google Collab.md",
     "0. Friday - Setup/_Readme.md",
     "1. Monday - MD, Python, Data Science/Introduction to Python.md",
     "_Readme.md",
     "0. Friday - Setup/6. Ollama.md",
-    "0. Friday - Setup/5. Google Collab.md",
     "Link.md",
     "1. Monday - MD, Python, Data Science/1 Markdown.md",
     "2025-06-11.md",
