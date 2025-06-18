@@ -20,4 +20,4 @@ Software setup and validation procedures for CodeSinaia-2025 activities:
 - [ ] Login in Google Collab
 	- [ ] Configure Python 3 & T4 runtime
 	- [ ] Create new HelloCollabWorld.ipynb in Drive
-	- [ ] Run basic "Hello Collab "
+	- [ ] Run basic "Hello Collab" code block.

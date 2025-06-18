@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "ab0f3913c170f547",
+        "id": "fa149d4da096aded",
         "type": "tabs",
         "children": [
           {
-            "id": "8ca050ba1d7fdb76",
+            "id": "1af9110256c66675",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "0. Friday - Setup/_Readme.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "_Readme"
+              "title": "New tab"
             }
           }
         ]
@@ -167,17 +163,17 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "8ca050ba1d7fdb76",
+  "active": "1af9110256c66675",
   "lastOpenFiles": [
-    "0. Friday - Setup/1. Python.md",
-    "0. Friday - Setup/2. Git & GitHub.md",
-    "0. Friday - Setup/3. Visual Studio Code.md",
-    "0. Friday - Setup/4. Obsidian MD.md",
+    "0. Friday - Setup/6. Ollama.md",
     "0. Friday - Setup/5. Google Collab.md",
+    "0. Friday - Setup/4. Obsidian MD.md",
+    "0. Friday - Setup/3. Visual Studio Code.md",
+    "0. Friday - Setup/2. Git & GitHub.md",
+    "0. Friday - Setup/1. Python.md",
     "0. Friday - Setup/_Readme.md",
     "1. Monday - MD, Python, Data Science/Introduction to Python.md",
     "_Readme.md",
-    "0. Friday - Setup/6. Ollama.md",
     "Link.md",
     "1. Monday - MD, Python, Data Science/1 Markdown.md",
     "2025-06-11.md",
