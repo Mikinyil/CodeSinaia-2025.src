@@ -1,4 +1,4 @@
-Necessary software:
+Software setup and validation procedures for CodeSinaia-2025 activities:
 
 | Name                    | Details                   |
 | ----------------------- | ------------------------- |
@@ -19,5 +19,5 @@ Necessary software:
 	- [ ] Create vault for the notes in the cloned repository
 - [ ] Login in Google Collab
 	- [ ] Configure Python 3 & T4 runtime
-	- [ ] Create new ipynb in Drive
-	- [ ] Run basic "HelloCollabWorld.py"
+	- [ ] Create new HelloCollabWorld.ipynb in Drive
+	- [ ] Run basic "Hello Collab "
