@@ -5,7 +5,7 @@ Introducere și exerciții în python și în mediul de lucru tipic pentru Data 
 - [ ] 9:00 - 9:30: Define groups A and B (ref: [[1. Organizare]])
 - [ ] 9:30 - 10:30: Setup check (ref: [[2. Setup check]])
 - [ ] 10:30 - 11:30: Lecture (A+B): Command line & Git
-- [ ] 11:30 - 12:00: Lecture (A+B): Learning: "Randoms" project spec (ref: [[4. Intro to Python dev environment]])
+- [ ] 11:30 - 12:00: Lecture (A+B): Learning: "Randoms" project spec (ref: [[4. Python dev environment]])
 
 - [ ] 12:00 -14:00 --------**Lunch break** --------
  
