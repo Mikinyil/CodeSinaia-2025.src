@@ -9,6 +9,5 @@ Introducere și exerciții în python și în mediul de lucru tipic pentru Data 
 
 - [ ] 12:00 -14:00 --------**Lunch break** --------
  
-- [ ] 14:00 - 14:30: Lab (A/B): Learning: "Randoms" project code review (ref: [[5. Code review Randoms project]])
-- [ ] 14:30 - 16:00: Lab (A/B):  Coding: "Mountains" project (ref: [[6. Code Mountains project]])
+- [ ] 14:00 - 16:00: Lab (A/B): Learning & Coding: "Randoms" & "Mountains" (ref: [[5. Randoms & Mountains]])
 - [ ] 16:00 - 17:00: Lab (A/B): Engineering tools

@@ -1,9 +1,7 @@
-from functools import reduce
 import random
-from collections import OrderedDict
 
 # read inputs parameters from the console
-count = 100 # int(input("Number of values?> "))
+count = 1000 # int(input("Number of values?> "))
 min_value = 12 # int(input("Minimum value?> "))
 max_value = 85 # int(input("Maximum value?> "))
 
