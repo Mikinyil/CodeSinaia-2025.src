@@ -1,9 +1,9 @@
 import random
 
 # Read input parameters from the console
-count = 1000 # int(input("Number of values?> "))
-min_value = 12 # int(input("Minimum value?> "))
-max_value = 85 # int(input("Maximum value?> "))
+count = 100 # int(input("Number of values?> "))
+min_value = 15 # int(input("Minimum value?> "))
+max_value = 65 # int(input("Maximum value?> "))
 print(f"Generating {count} randoms in the range [{min_value}, {max_value}]")
 
 # Generate count values in the range [min_value, max_value] and store them in a the values map
@@ -12,6 +12,7 @@ print(f"Generating {count} randoms in the range [{min_value}, {max_value}]")
 randoms_map = {}
 for i in range(0, count):
     r = random.randint(min_value, max_value)
+    #r = int(min_value + i) if i < 9 * count/10 else min_value + 1000 + i
     if r not in randoms_map:
         randoms_map[r] = []
     randoms_map[r].append(i)
