@@ -1,5 +1,4 @@
 import random
-import statistics
 
 # Read input parameters from the console
 count = 1000 # int(input("Number of values?> "))
@@ -22,29 +21,3 @@ with open("dataset.txt", "w") as data_file:
     for r in randoms_map.keys():
         data_file.write(f"{r} {randoms_map[r]}\n")
 
-# Print a few statistics: min, max random values,  mean, median(aka average) and standard deviation (aka stdev) of the sequence.
-print(f"Count of unique randoms: {len(randoms_map.keys())}")
-sorted_randoms = sorted(randoms_map.keys())
-print(f"Min random: {sorted_randoms[0]}; Max random: {sorted_randoms[-1]}")
-print(f"Mean of the sequence: {statistics.mean(sorted_randoms)}")
-print(f"Median of the sequence: {statistics.median(sorted_randoms)}")
-print(f"Standard Deviation of the sequence: {statistics.stdev(sorted_randoms)}")
-
-# Read from the input the desired topN count of most frequent randoms that should be printed.
-# Then, store in an array all the randoms along with their individual count. Each entry in the array is an object with two fields:
-# - value: the random value
-# - count: the value's frequency or count of occurrences in the sequence. 
-# In the end the array is sorted in the descending order of each object's _count_ value and the first topN are printed out.
-topN = 10 # int(input("Count of most frequent numbers?> "))
-randoms_array = []
-for random_value in randoms_map.keys():
-    randoms_array.append({"value" : random_value, "count" : len(randoms_map[random_value])}) 
-randoms_array.sort(key=lambda x: x["count"], reverse=True)
-
-# Use a lambda expresion to map the first _topN_ objects from the sorted array to a string showing a random value and the count of its occurrences in the sequence. 
-# Join these strings together, each a new line, then print the resulting text.
-lines = map(
-    lambda r: f'random {r["value"]} occurred {r["count"]} times',
-    randoms_array[:topN]
-)
-print("\n".join(lines))
