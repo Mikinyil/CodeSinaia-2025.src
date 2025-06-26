@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "020cb0aaa1b60c32",
+        "id": "cc401b42f120a2d6",
         "type": "tabs",
         "children": [
           {
-            "id": "6c66fcff968fb7d2",
+            "id": "881b8c2034e1b0c6",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "1. Monday/_Readme.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "_Readme"
+              "title": "New tab"
             }
           }
         ]
@@ -167,12 +163,18 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "6c66fcff968fb7d2",
+  "active": "881b8c2034e1b0c6",
   "lastOpenFiles": [
+    "2. Tuesday/3. Hands-on with Pandas and Matplotlib.md",
+    "1. Monday/4. Python dev environment.md",
+    "2. Tuesday/_Readme.md",
+    "1. Monday/2. Setup check.md",
     "1. Monday/1. Organizare.md",
-    "1. Monday/5. Code Review - Randoms.md",
-    "1. Monday/6. Code - Mountains.md",
     "1. Monday/_Readme.md",
+    "1. Monday/6. Code - Mountains.md",
+    "1. Monday/5. Code Review - Randoms.md",
+    "_Readme.md",
+    "2. Tuesday",
     "0. Friday - Setup/6. Ollama.md",
     "0. Friday - Setup/5. Google Collab.md",
     "0. Friday - Setup/4. Obsidian.md",
@@ -180,9 +182,6 @@
     "0. Friday - Setup/2. Git & GitHub.md",
     "0. Friday - Setup/1. Python.md",
     "0. Friday - Setup/_Readme.md",
-    "1. Monday/4. Python dev environment.md",
-    "1. Monday/2. Setup check.md",
-    "_Readme.md",
     "[Orar.md",
     "[CodeSinaia-2025.src/Presentations/CS2025.md",
     "[CodeSinaia-2025.src/Presentations",
@@ -196,7 +195,6 @@
     "0. Friday - Setup/2.1. Control Characters.md",
     "0. Friday - Setup/hmm/double hmm.md",
     "0. Friday - Setup/hmm",
-    "Welcome.md",
     "0. Friday - Setup",
     "1. Monday"
   ]
