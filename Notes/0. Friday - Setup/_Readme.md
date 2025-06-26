@@ -5,7 +5,7 @@ Software setup and validation procedures for CodeSinaia-2025 activities:
 | Python                  | [[1. Python]]             |
 | Git & GitHub            | [[2. Git & GitHub]]       |
 | VSCode with  extensions | [[3. Visual Studio Code]] |
-| Obsidian MD             | [[4. Obsidian MD]]        |
+| Obsidian MD             | [[4. Obsidian]]        |
 | Google Collab           | [[5. Google Collab]]      |
 | Ollama                  | [[6. Ollama]]             |
 
@@ -15,7 +15,7 @@ Software setup and validation procedures for CodeSinaia-2025 activities:
 - [ ] Install [[3. Visual Studio Code|VSCode & extensions]]
 	- [ ] Clone forked repository
 	- [ ] Run basic "HelloPyWorld.py"
-- [ ] Install [[4. Obsidian MD|Obsidian]]
+- [ ] Install [[4. Obsidian|Obsidian]]
 	- [ ] Create vault for the notes in the cloned repository
 - [ ] Login in [[5. Google Collab|Google Collab]]
 	- [ ] Configure Python 3 & T4 runtime
