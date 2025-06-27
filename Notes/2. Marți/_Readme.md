@@ -9,5 +9,5 @@ Continuarea topicelor din ziua precedentă: Elemente de Inginerie software (Unit
 - [ ] 12:00 -14:00 --------**Lunch break** --------
  
 - [ ] 14:00 - 16:00: Lab (A/B): Python Unit Testing & CI / CD
-- [ ] 14:45 - 16:00: Lab (A/B): Code: Mountains DataFrames and Graphs (ref: )
+- [ ] 14:45 - 16:00: Lab (A/B): Code: Mountains Graphs and DataFrames (ref: )
 - [ ] 16:00 - 17:30: Prezentare (A+B): AI și Robotică
