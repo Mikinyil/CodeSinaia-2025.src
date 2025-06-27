@@ -1,11 +1,13 @@
-Software setup and validation procedures for CodeSinaia-2025 activities:
+Friday: 10:00 - 12:00
+
+Online workshop for installing and validating the software setup needed for *CodeSinaia-2025* activities:
 
 | Name                    | Details                   |
 | ----------------------- | ------------------------- |
 | Python                  | [[1. Python]]             |
 | Git & GitHub            | [[2. Git & GitHub]]       |
 | VSCode with  extensions | [[3. Visual Studio Code]] |
-| Obsidian MD             | [[4. Obsidian]]        |
+| Obsidian MD             | [[4. Obsidian]]           |
 | Google Collab           | [[5. Google Collab]]      |
 | Ollama                  | [[6. Ollama]]             |
 
@@ -21,3 +23,4 @@ Software setup and validation procedures for CodeSinaia-2025 activities:
 	- [ ] Configure Python 3 & T4 runtime
 	- [ ] Create new HelloCollabWorld.ipynb in Drive
 	- [ ] Run basic "Hello Collab" code block.
+- [ ] Install [[6. Ollama]]

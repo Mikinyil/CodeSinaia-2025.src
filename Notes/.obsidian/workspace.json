@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "2805d27d541e4728",
+        "id": "86c8c06e32aa5767",
         "type": "tabs",
         "children": [
           {
-            "id": "cc50cc5c41c27f39",
+            "id": "0d7c14e02ea0cb82",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "2. Marți/_Readme.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "_Readme"
             }
           }
         ]
@@ -163,22 +167,22 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "cc50cc5c41c27f39",
+  "active": "0d7c14e02ea0cb82",
   "lastOpenFiles": [
-    "2. Marți/5. Code - Mountains Graphs and DataFrames.md",
     "2. Marți/3. Hands-on with Matplotlib and Pandas.md",
-    "1. Luni/6. Code - Mountains.md",
-    "1. Luni/5. Code Review - Randoms.md",
-    "_Readme.md",
+    "2. Marți/5. Lab - Code Mountains Graphs and DataFrames.md",
+    "1. Luni/6. Lab - Code Mountains Stats.md",
+    "1. Luni/5. Lab - Code Review Randoms.md",
+    "1. Luni/4. Hands-on cu Python și Jupyter Notebooks.md",
     "2. Marți/_Readme.md",
-    "1. Luni/4. Python dev environment.md",
+    "1. Luni/7. Lab - Command Line & Git.md",
+    "1. Luni/3. Command Line & Git.md",
     "1. Luni/2. Setup check.md",
     "1. Luni/1. Organizare.md",
     "1. Luni/_Readme.md",
-    "5. Vineri",
-    "4. Joi",
-    "3. Miercuri",
-    "2. Marți",
+    "1. Luni/Untitled/daas.md",
+    "1. Luni/Untitled",
+    "_Readme.md",
     "0. Vineri - Setup/6. Ollama.md",
     "0. Vineri - Setup/5. Google Collab.md",
     "0. Vineri - Setup/4. Obsidian.md",
@@ -186,17 +190,18 @@
     "0. Vineri - Setup/2. Git & GitHub.md",
     "0. Vineri - Setup/1. Python.md",
     "0. Vineri - Setup/_Readme.md",
+    "Ollama.md",
+    "[Basic.md",
+    "[Download.md",
+    "5. Vineri",
+    "4. Joi",
+    "3. Miercuri",
+    "2. Marți",
     "[Orar.md",
     "[CodeSinaia-2025.src/Presentations/CS2025.md",
     "[CodeSinaia-2025.src/Presentations",
     "[CodeSinaia-2025.src",
     "[[.md",
-    "Python.md",
-    "Link.md",
-    "1. Monday - MD, Python, Data Science/1 Markdown.md",
-    "2025-06-11.md",
-    "[Basic.md",
-    "0. Friday - Setup/2.1. Control Characters.md",
     "0. Friday - Setup/hmm",
     "0. Vineri - Setup",
     "1. Luni"
