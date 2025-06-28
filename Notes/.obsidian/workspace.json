@@ -4,24 +4,39 @@
     "type": "split",
     "children": [
       {
-        "id": "86c8c06e32aa5767",
+        "id": "2150f495ecd69f68",
         "type": "tabs",
         "children": [
           {
-            "id": "0d7c14e02ea0cb82",
+            "id": "7b0a89558307e9d3",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1. Luni/3. Command Line & Git.md",
-                "mode": "source",
-                "source": false
+                "file": "2. Marți/_Readme.md",
+                "mode": "preview",
+                "source": true
               },
               "icon": "lucide-file",
-              "title": "3. Command Line & Git"
+              "title": "_Readme"
+            }
+          },
+          {
+            "id": "94a92cbb1e57e55b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2. Marți/_Readme.md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "_Readme"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -167,25 +182,26 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "0d7c14e02ea0cb82",
+  "active": "94a92cbb1e57e55b",
   "lastOpenFiles": [
-    "1. Luni/4. Hands-on cu Python și Jupyter Notebooks.md",
-    "1. Luni/_Readme.md",
-    "_Readme.md",
+    "2. Marți/1. Tipuri de microcontrolere și aplicații în industrie.md",
     "2. Marți/_Readme.md",
-    "1. Luni/6. Lab - Code Mountains Stats.md",
     "2. Marți/3. Hands-on with Matplotlib and Pandas.md",
-    "0. Vineri - Setup/4. Obsidian.md",
-    "0. Vineri - Setup/_Readme.md",
+    "_Readme.md",
+    "1. Luni/7. Lab - Command Line & Git.md",
+    "1. Luni/_Readme.md",
+    "1. Luni/6. Lab - Code Mountains Stats.md",
     "1. Luni/5. Lab - Code Review Randoms.md",
+    "1. Luni/4. Hands-on cu Python și Jupyter Notebooks.md",
     "1. Luni/2. Setup check.md",
     "1. Luni/1. Organizare.md",
-    "0. Vineri - Setup/6. Ollama.md",
+    "0. Vineri - Setup/_Readme.md",
     "0. Vineri - Setup/1. Python.md",
+    "1. Luni/3. Command Line & Git.md",
+    "0. Vineri - Setup/4. Obsidian.md",
+    "0. Vineri - Setup/6. Ollama.md",
     "0. Vineri - Setup/3. Visual Studio Code.md",
     "2. Marți/5. Lab - Code Mountains Graphs and DataFrames.md",
-    "1. Luni/7. Lab - Command Line & Git.md",
-    "1. Luni/3. Command Line & Git.md",
     "1. Luni/Untitled/daas.md",
     "1. Luni/Untitled",
     "0. Vineri - Setup/5. Google Collab.md",
@@ -201,7 +217,6 @@
     "[CodeSinaia-2025.src/Presentations/CS2025.md",
     "[CodeSinaia-2025.src/Presentations",
     "[CodeSinaia-2025.src",
-    "[[.md",
     "0. Friday - Setup/hmm",
     "0. Vineri - Setup",
     "1. Luni"
