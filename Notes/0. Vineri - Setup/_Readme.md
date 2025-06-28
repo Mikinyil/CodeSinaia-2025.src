@@ -1,4 +1,4 @@
-Friday: 10:00 - 12:00
+Friday: 9:00 - 11:00
 
 Online workshop for installing and validating the software setup needed for *CodeSinaia-2025* activities:
 
