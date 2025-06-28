@@ -6,7 +6,6 @@ import ast
 # where it was generated in the sequence. The method returns two values:
 # - the map associating each random value to the list of zero-based iterations where it was generated
 # - the total count of iterations
-
 def load_randoms(randoms_file):
     randoms_map = {}
     count = 0
