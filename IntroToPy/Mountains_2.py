@@ -6,7 +6,7 @@ import ast
 # several fields separated by TAB: mountain name, elevantion, country where it is located and
 # the ISO3 code of that country.
 # The method returns two values:
-# - the map associating each country to the list of mountains it contains
+# - the map associating each country to the list of {mountain, elevation} pairs from within
 # - the total count of mountains in the database
 def load_mountains(mountains_file):
     mountains_map = {}
@@ -20,7 +20,7 @@ def load_mountains(mountains_file):
             country_iso = line_parts[3]
             if not country_name in mountains_map:
                 mountains_map[country_name] = []
-            mountains_map[country_name].append(mountain_name)
+            mountains_map[country_name].append({"name":mountain_name, "elevation":mountain_elevation})
             count += 1
     return mountains_map, count
 
