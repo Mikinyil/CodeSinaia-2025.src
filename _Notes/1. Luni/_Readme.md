@@ -12,5 +12,5 @@ Introducere și exerciții în Python și Jupyter Notebooks.
 
 - [ ] 12:30 -14:00 --------**Lunch break** --------
  
-- [ ] 14:00 - 16:00 Lab (A + B): Python Randoms și Mountains   (ref: [[5. Lab - Python Randoms & Mountains]])
-- [ ] 16:00 - 17:00: Lab (A + B): Command line & Git (ref: [[6. Lab - Command Line & Git]])
+- [ ] 14:00 - 16:00 Lab (A+B): Python Randoms și Mountains   (ref: [[5. Lab - Python Randoms & Mountains]])
+- [ ] 16:00 - 17:00: Lab (A+B): Command line & Git (ref: [[6. Lab - Command Line & Git]])
