@@ -11,10 +11,14 @@
             "id": "dd66f16ab54cc9c6",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "1. Luni/3. Command Line & Git.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "3. Command Line & Git"
             }
           }
         ]
@@ -163,8 +167,9 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "9e4eb39bcb8f1bac",
+  "active": "dd66f16ab54cc9c6",
   "lastOpenFiles": [
+    "1. Luni/3. Command Line & Git.md",
     "5. Vineri/5. Seară cu Prof. Dr. Răzvan Rughiniș.md",
     "5. Vineri/_Readme.md",
     "4. Joi/1-2. User eXperience, Web Frontend & Backend.md",
@@ -190,7 +195,6 @@
     "1. Luni/6. Lab - Command Line & Git.md",
     "1. Luni/5. Lab - Python Randoms & Mountains.md",
     "1. Luni/4. Hands-on cu Python și Jupyter Notebooks.md",
-    "1. Luni/3. Command Line & Git.md",
     "5. Vineri",
     "4. Joi",
     "3. Miercuri",
