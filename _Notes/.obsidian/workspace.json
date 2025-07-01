@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "3. Miercuri/_Readme.md",
+                "file": "2. Marți/3-5. Hands-on cu Matplotlib and Pandas.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "_Readme"
+              "title": "3-5. Hands-on cu Matplotlib and Pandas"
             }
           }
         ]
@@ -178,6 +178,9 @@
     "1. Luni/5. Lab - Python Randoms & Mountains.md",
     "1. Luni/4. Hands-on cu Python și Jupyter Notebooks.md",
     "1. Luni/3. Command Line & Git.md",
+    "3. Miercuri/2-4. Introducere în Cybersecurity.md",
+    "3. Miercuri/1-3. Introducere în LLM și Agenți Inteligenti.md",
+    "3. Miercuri/_Readme.md",
     "1. Luni/2. Setup check.md",
     "1. Luni/1. Organizare.md",
     "1. Luni/_Readme.md",
@@ -192,9 +195,6 @@
     "0. Vineri - Setup/4. Obsidian.md",
     "5. Vineri/5. Seară cu Prof. Dr. Răzvan Rughiniș.md",
     "5. Vineri/_Readme.md",
-    "4. Joi/1-2. User eXperience, Web Frontend & Backend.md",
-    "4. Joi/5. Cum ne prezentăm la un interviu.md",
-    "4. Joi/4-3. Lab - Elemente de Data Science.md",
     "5. Vineri",
     "4. Joi",
     "3. Miercuri",
