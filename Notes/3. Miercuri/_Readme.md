@@ -8,7 +8,6 @@ Introducerea unor concepte de cyber-security: fundamente matematice cu impact î
 - [ ] 10:45 - 12:30: Lecție (B): Introducere în LLM și Agenți Inteligenți (ref: [[1-3. Introducere în LLM și Agenți Inteligenti]])
 - [ ] 10:45 - 12:30: Lecție (A): Introducere în Cybersecurity (ref: [[2-4. Introducere în Cybersecurity]])
 
-
 - [ ] 12:30 -14:00 --------**Lunch break** --------
  
 - [ ] 14:00 - 15:00: Lab (A+B): Introducere în LLM și Agenți Inteligenți (ref: [[5. Lab - LLM și Agenți Inteligenți]]) 
