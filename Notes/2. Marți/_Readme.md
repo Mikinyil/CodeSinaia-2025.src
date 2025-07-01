@@ -1,5 +1,5 @@
 Marți 22 iulie
-Dependințe: [[1. Luni/_Readme]]
+Dependențe: [[1. Luni/_Readme]]
 
 Continuarea topicelor din ziua precedentă: Elemente de Inginerie software (Unit Testing și CI/CD) și Elemente de Data Science în Python (Pandas și Matplotlib). În plus, ne expunem prin câteva prezentări la domeniul hardware si de automatizare (micro controlere și aplicații în industrie) și la îmbinarea dintre AI și Robotică.
 

@@ -2,10 +2,10 @@ Luni 20 iulie -  Sâmbătă 26 iulie
 
 Informații generale despre Școala de Programare "**Code Sinaia 2025**":
 
-| Schedule        | [Orar consolidat 2025.xlsx - Google Sheets](https://docs.google.com/spreadsheets/d/1nXoItEMP9Q5N4ED7zwNDKo0_VqPZYsc2/edit?gid=107350743#gid=107350743) |
-| --------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| Class A roaster |                                                                                                                                                        |
-| Class B roaster |                                                                                                                                                        |
+| Orar          | [Orar consolidat 2025.xlsx - Google Sheets](https://docs.google.com/spreadsheets/d/1nXoItEMP9Q5N4ED7zwNDKo0_VqPZYsc2/edit?gid=107350743#gid=107350743) |
+| ------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| Lista Clasa A |                                                                                                                                                        |
+| Lista Clasa B |                                                                                                                                                        |
 
 <u>Resurse</u>:
 
