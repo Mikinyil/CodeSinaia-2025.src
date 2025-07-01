@@ -4,24 +4,67 @@
     "type": "split",
     "children": [
       {
-        "id": "2843d3121d8ffb13",
+        "id": "c47d1f502476dfb9",
         "type": "tabs",
         "children": [
           {
-            "id": "e3997571a8d9553e",
+            "id": "30a7de30669c33a5",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2. Marți/6. AI și Robotică.md",
+                "file": "3. Miercuri/_Readme.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "6. AI și Robotică"
+              "title": "_Readme"
+            }
+          },
+          {
+            "id": "23fe5ce456e51d78",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "3. Miercuri/_Readme.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "_Readme"
+            }
+          },
+          {
+            "id": "8b0989ea554f6c5a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "3. Miercuri/_Readme.md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "_Readme"
+            }
+          },
+          {
+            "id": "4f11068bd9b60c32",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "3. Miercuri/7. My Startup Journey.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "7. My Startup Journey"
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -167,19 +210,30 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "e3997571a8d9553e",
+  "active": "4f11068bd9b60c32",
   "lastOpenFiles": [
+    "3. Miercuri/6. Lab - Cybersecurity.md",
+    "3. Miercuri/5. Lab - LLM și Agenți Inteligenți.md",
+    "3. Miercuri/2-4. Introducere în Cybersecurity.md",
+    "3. Miercuri/1-3. Introducere în LLM și Agenți Inteligenti.md",
+    "3. Miercuri/_Readme.md",
+    "3. Miercuri/7. My Startup Journey.md",
+    "2. Marți/6. AI și Robotică.md",
     "2. Marți/3-5. Hands-on cu Matplotlib and Pandas.md",
+    "2. Marți/2-4. Python Unit Testing and CI_CD.md",
+    "2. Marți/_Readme.md",
+    "2. Marți/1. Microcontrolere și aplicații în industrie.md",
+    "1. Luni/6. Lab - Command Line & Git.md",
     "1. Luni/5. Lab - Python Randoms & Mountains.md",
     "1. Luni/4. Hands-on cu Python și Jupyter Notebooks.md",
-    "2. Marți/2-4. Python Unit Testing and CI_CD.md",
-    "2. Marți/1. Microcontrolere și aplicații în industrie.md",
-    "2. Marți/_Readme.md",
-    "1. Luni/6. Lab - Command Line & Git.md",
     "1. Luni/3. Command Line & Git.md",
     "1. Luni/2. Setup check.md",
     "1. Luni/1. Organizare.md",
     "1. Luni/_Readme.md",
+    "_Readme.md",
+    "5. Vineri",
+    "4. Joi",
+    "3. Miercuri",
     "0. Vineri - Setup/6. Ollama.md",
     "0. Vineri - Setup/5. Google Collab.md",
     "0. Vineri - Setup/4. Obsidian.md",
@@ -187,23 +241,12 @@
     "0. Vineri - Setup/2. Git & GitHub.md",
     "0. Vineri - Setup/1. Python.md",
     "0. Vineri - Setup/_Readme.md",
-    "_Readme.md",
-    "2. Marți/6. AI și Robotică.md",
-    "1. Luni/6. Lab - Mountains Stats.md",
-    "2. Marți/5. Lab - Mountains Graphs and DataFrames.md",
-    "2. Marți/4. Python Unit Testing and CI_CD.md",
-    "1. Luni/Untitled/daas.md",
     "1. Luni/Untitled",
-    "Ollama.md",
-    "[Basic.md",
     "5. Vineri",
     "4. Joi",
     "3. Miercuri",
     "2. Marți",
     "[CodeSinaia-2025.src/Presentations",
-    "[CodeSinaia-2025.src",
-    "0. Friday - Setup/hmm",
-    "0. Vineri - Setup",
-    "1. Luni"
+    "[CodeSinaia-2025.src"
   ]
 }
