@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "2cc6576c5e6e21c1",
+        "id": "123117213701f336",
         "type": "tabs",
         "children": [
           {
-            "id": "ee3f026c704cd4fa",
+            "id": "dd66f16ab54cc9c6",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -167,12 +167,14 @@
   "lastOpenFiles": [
     "5. Vineri/5. Seară cu Prof. Dr. Răzvan Rughiniș.md",
     "5. Vineri/_Readme.md",
+    "4. Joi/1-2. User eXperience, Web Frontend & Backend.md",
+    "0. Vineri - Setup/4. Obsidian.md",
+    "0. Vineri - Setup/_Readme.md",
     "4. Joi/5. Cum ne prezentăm la un interviu.md",
     "4. Joi/4-3. Lab - Elemente de Data Science.md",
     "4. Joi/3-4. Lab - User eXperience, Web Frontend & Backend.md",
     "4. Joi/_Readme.md",
     "4. Joi/2-1. Elemente de Data Science.md",
-    "4. Joi/1-2. User eXperience, Web Frontend & Backend.md",
     "_Readme.md",
     "3. Miercuri/7. My Startup Journey.md",
     "3. Miercuri/6. Lab - Cybersecurity.md",
@@ -189,8 +191,6 @@
     "1. Luni/5. Lab - Python Randoms & Mountains.md",
     "1. Luni/4. Hands-on cu Python și Jupyter Notebooks.md",
     "1. Luni/3. Command Line & Git.md",
-    "1. Luni/2. Setup check.md",
-    "1. Luni/1. Organizare.md",
     "5. Vineri",
     "4. Joi",
     "3. Miercuri",
