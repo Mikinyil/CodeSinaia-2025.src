@@ -4,23 +4,24 @@ Online workshop for installing and validating the software setup needed for *Cod
 
 | Name                    | Details                   |
 | ----------------------- | ------------------------- |
-| Python                  | [[1. Python]]             |
+| Notepad++               | [[1. Notepad++]]          |
 | Git & GitHub            | [[2. Git & GitHub]]       |
-| VSCode with  extensions | [[3. Visual Studio Code]] |
-| Obsidian MD             | [[4. Obsidian]]           |
-| Google Collab           | [[5. Google Collab]]      |
-| Ollama                  | [[6. Ollama]]             |
+| Obsidian MD             | [[3. Obsidian]]           |
+| Python                  | [[4. Python]]             |
+| VSCode with  extensions | [[7. Visual Studio Code]] |
+| Ollama                  | [[5. Ollama]]             |
+| Google Collab           | [[6. Google Collab]]      |
 
-- [ ] Install [[1. Python|Python]]
 - [ ] Install [[2. Git & GitHub|Git]]
 	- [ ] Login in GitHub, fork template repository [Link TBD](link-to-repo)
-- [ ] Install [[3. Visual Studio Code|VSCode & extensions]]
+- [ ] Install [[3. Obsidian|Obsidian]]
+	- [ ] Create vault for the notes in the cloned repository
+- [ ] Install [[4. Python|Python]]
+- [ ] Install [[7. Visual Studio Code|VSCode & extensions]]
 	- [ ] Clone forked repository
 	- [ ] Run basic "HelloPyWorld.py"
-- [ ] Install [[4. Obsidian|Obsidian]]
-	- [ ] Create vault for the notes in the cloned repository
-- [ ] Login in [[5. Google Collab|Google Collab]]
+- [ ] Login in [[6. Google Collab|Google Collab]]
 	- [ ] Configure Python 3 & T4 runtime
 	- [ ] Create new HelloCollabWorld.ipynb in Drive
 	- [ ] Run basic "Hello Collab" code block.
-- [ ] Install [[6. Ollama]]
+- [ ] Install [[5. Ollama]]
