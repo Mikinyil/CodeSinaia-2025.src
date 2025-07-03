@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "0. Vineri - Setup/2. Git & GitHub.md",
-                "mode": "source",
-                "source": false
+                "file": "1. Luni/3. Command Line & Git.md",
+                "mode": "preview",
+                "source": true
               },
               "icon": "lucide-file",
-              "title": "2. Git & GitHub"
+              "title": "3. Command Line & Git"
             }
           }
         ],
@@ -184,9 +184,13 @@
   },
   "active": "ff14036ecc5abf41",
   "lastOpenFiles": [
+    "1. Luni/2. Setup check.md",
+    "1. Luni/5. Lab - Python Randoms & Mountains.md",
+    "1. Luni/4. Hands-on cu Python și Jupyter Notebooks.md",
+    "1. Luni/_Readme.md",
+    "0. Vineri - Setup/2. Git & GitHub.md",
     "0. Vineri - Setup/1. Notepad++.md",
     "0. Vineri - Setup/_Readme.md",
-    "0. Vineri - Setup/2. Git & GitHub.md",
     "0. Vineri - Setup/3. Obsidian.md",
     "0. Vineri - Setup/7. Visual Studio Code.md",
     "0. Vineri - Setup/4. Python.md",
@@ -198,12 +202,8 @@
     "2. Marți/1. Microcontrolere și aplicații în industrie.md",
     "_Readme.md",
     "1. Luni/6. Lab - Command Line & Git.md",
-    "1. Luni/_Readme.md",
-    "1. Luni/5. Lab - Python Randoms & Mountains.md",
     "2. Marți/3-5. Hands-on cu Matplotlib and Pandas.md",
-    "1. Luni/4. Hands-on cu Python și Jupyter Notebooks.md",
     "1. Luni/3. Command Line & Git.md",
-    "1. Luni/2. Setup check.md",
     "().md",
     "2. Marți/6. AI și Robotică.md",
     "[Download.md",
