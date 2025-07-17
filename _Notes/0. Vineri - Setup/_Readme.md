@@ -6,8 +6,9 @@ Online workshop for installing and validating the software setup needed for *Cod
 | ----------------------- | ------------------------- |
 | Notepad++               | [[1. Notepad++]]          |
 | GitHub & Git            | [[2. GitHub & Git]]       |
-| Obsidian MD             | [[3. Obsidian]]           |
-| Python                  | [[4. Python]]             |
-| VSCode with  extensions | [[5. Visual Studio Code]] |
-| Ollama                  | [[6. Ollama]]             |
-| Google Collab           | [[7. Google Collab]]      |
+| CodeSinaia2025 Data     | 3. Data                   |
+| Obsidian MD             | [[4. Obsidian]]           |
+| Python                  | [[5. Python]]             |
+| VSCode with  extensions | [[6. Visual Studio Code]] |
+| Ollama                  | [[7. Ollama]]             |
+| Google Colab            | [[8. Google Colab]]       |
