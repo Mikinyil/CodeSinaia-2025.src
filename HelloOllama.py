@@ -3,8 +3,6 @@ import ollama
 # Specify the model name
 model_name = "gemma3:1b"
 
-#print(dir(ollama))
-
 # Define the prompt
 prompt = "What is the capital of France?"
 
