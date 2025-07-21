@@ -21,7 +21,7 @@ void wifi_init_softap(void) {
     ESP_ERROR_CHECK(esp_netif_init());
     ESP_ERROR_CHECK(esp_event_loop_create_default());
     esp_netif_t* h_wifi_ap = esp_netif_create_default_wifi_ap();
-    esp_netif_dhcps_stop(h_wifi_ap);
+    // esp_netif_dhcps_stop(h_wifi_ap);
     esp_netif_ip_info_t ipAddrInfo = {
         .ip = {
             .addr = (192 << 24) | (168 << 16) | (1 << 8) | (1),
@@ -69,16 +69,48 @@ esp_err_t get_root(httpd_req_t* req) {
     httpd_resp_set_status(req, HTTPD_200);
     return httpd_resp_send(req, HTML_ROOT, HTTPD_RESP_USE_STRLEN);
 }
-char sz_buf[256], sz_text[64], sz_temp[17];
+char sz_buf[256], sz_text[64] = "Waiting...", sz_temp[17];
+bool lcd_update = false;
+int h2dec(char c) {
+    if(c >= '0' && c <= '9')
+        return c - '0';
+    if(c >= 'A' && c <= 'F')
+        return c - 'A' + 10;
+    if(c >= 'a' && c <= 'f')
+        return c - 'a' + 10;
+    return 0;
+}
+void url_decode(char *src, char *dst)
+{
+    char *w = dst;
+    for(char *p = src; *p; ++p, ++w) {
+        if(*p == '+')
+            *w = ' ';
+        else if(*p == '%') {
+            ++p;
+            int c0 = h2dec(*p);
+            ++p;
+            int c1 = h2dec(*p);
+            *w = (char)(c0 * 16 + c1);
+        } else {
+            *w = *p;
+        }
+    }
+    *w = 0;
+}
 esp_err_t post_update(httpd_req_t* req) {
+    memset(sz_buf, 0, sizeof sz_buf);
     httpd_req_recv(req, sz_buf, sizeof sz_buf);
-    printf("POST: %s\n", sz_buf);
+    // printf("POST: %s\n", sz_buf);
+    // strcpy(sz_text, sz_buf + 4);
+    memset(sz_text, 0, sizeof sz_text);
+    url_decode(sz_buf + 4, sz_text);
 
-    update_lcd();
+    lcd_update = true;
 
-    httpd_resp_set_type(req, "text/plain");
+    httpd_resp_set_type(req, "text/html");
     httpd_resp_set_status(req, HTTPD_200);
-    return httpd_resp_send(req, "OK", HTTPD_RESP_USE_STRLEN);
+    return httpd_resp_send(req, HTML_ROOT, HTTPD_RESP_USE_STRLEN);
 }
 esp_err_t httpd_not_found(httpd_req_t* req, httpd_err_code_t error) {
     httpd_resp_set_type(req, "text/plain");
@@ -137,11 +169,13 @@ void update_lcd(void) {
     lcd_set_cursor(&h_lcd, 0, 0);
 
     // print first line
+    memset(sz_temp, 0, sizeof sz_temp);
     strncpy(sz_temp, sz_text, 16);
     lcd_print(&h_lcd, sz_temp);
     if (strlen(sz_text) > 16) {
+        memset(sz_temp, 0, sizeof sz_temp);
         strncpy(sz_temp, sz_text + 16, 16);
-        lcd_set_cursor(&h_lcd, 0, 0);
+        lcd_set_cursor(&h_lcd, 0, 1);
         lcd_print(&h_lcd, sz_temp);
     }
     if (strlen(sz_text) > 32) {
@@ -149,6 +183,7 @@ void update_lcd(void) {
         lcd_set_cursor(&h_lcd, 0, 0);
         lcd_print(&h_lcd, "mesage too long");
     }
+    printf("sz_text: '%s'\n", sz_text);
     if (!strcmp(sz_text, "clear")) {
         lcd_clear(&h_lcd);
     }
@@ -158,4 +193,12 @@ void app_main(void) {
     wifi_init_softap();
 
     init_i2c();
+    init_lcd();
+
+    while(true) {
+        if(lcd_update)
+            update_lcd();
+        lcd_update = false;
+        vTaskDelay(10);
+    }
 }

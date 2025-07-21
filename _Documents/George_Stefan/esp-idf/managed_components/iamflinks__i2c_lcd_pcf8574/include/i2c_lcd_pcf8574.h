@@ -107,6 +107,6 @@ void lcd_print_number(i2c_lcd_pcf8574_handle_t* lcd, uint8_t col, uint8_t row, u
 }
 #endif  // C++ extern
 
-#define ets_delay_us(x) vTaskDelay(x / 1000 / portTICK_PERIOD_MS)
+#define ets_delay_us(x) vTaskDelay(x / 100 / portTICK_PERIOD_MS)
 
 #endif  // I2C_LCD_PCF8574_H
