@@ -1,7 +1,7 @@
 import ollama
 
 # Specify the model name
-model_name = "gemma3:1b"
+model_name = "llama3.2"
 
 # Define the prompt
 prompt = "What is the capital of France?"
